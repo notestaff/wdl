@@ -1991,11 +1991,11 @@ workflow myWorkflow {
 ```
 
 #### Struct Assignment from Object Literal
-Structs can be assigned using an object literal. When Writing the object, all entries must conform or be coercible into the underlying type they are being assigned to [*](./ERRATA.md#WDL_1_0.E001)
+Structs can be assigned using an object literal. When Writing the object, all entries must conform or be coercible into the underlying type they are being assigned to
 
 ```wdl
 
-Person a = {"name": "John","age": 30}
+Person a = {name: "John", age: 30}
 
 ```
 
